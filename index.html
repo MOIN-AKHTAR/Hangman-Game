@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-4.3.1-dist/css/bootstrap.min.css"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      body {
+        background: black;
+        color: whitesmoke;
+      }
+    </style>
+    <title>Hangman</title>
+  </head>
+  <body>
+    <h1 class="text-center text-white bg-dark py-4">Hangman Game</h1>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col d-flex py-3"
+            style="justify-content: center;align-items: center;flex-direction: column;border: 1px solid white;background: lightslategray;"
+          >
+            <h2 id="Word"></h2>
+            <h4 id="Status"></h4>
+            <button id="Restart" class="btn btn-lg btn-success btn-block">
+              Restart
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./Hangmen.js"></script>
+    <script src="./Code.js"></script>
+  </body>
+</html>
